@@ -9,12 +9,6 @@ class ArticleWebView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return Scaffold(
-    //   appBar: AppBar(
-    //     title: const Text('News App'),
-    //   ),
-    //   body: WebView(initialUrl: url),
-    // );
     return CustomScaffold(
         body: WebView(
       initialUrl: url,

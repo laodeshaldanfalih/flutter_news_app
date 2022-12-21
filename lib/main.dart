@@ -38,9 +38,9 @@ class MyApp extends StatelessWidget {
               secondary: secondaryColor,
             ),
       ),
-      initialRoute: NewsListPage.routeName,
+      initialRoute: HomePage.routeName,
       routes: {
-        NewsListPage.routeName: (context) => const NewsListPage(),
+        HomePage.routeName: (context) => const HomePage(),
         ArtcileDetailpage.routName: (context) => ArtcileDetailpage(
             article: ModalRoute.of(context)?.settings.arguments as Article),
         ArticleWebView.routName: (context) => ArticleWebView(
