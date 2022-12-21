@@ -4,6 +4,8 @@ import 'package:news_app/widgets/widgets.dart';
 import 'package:flutter/cupertino.dart';
 
 class SettingsPage extends StatelessWidget {
+  static const String settingsTitle = 'Settings';
+
   const SettingsPage({Key? key}) : super(key: key);
 
   Widget _buildList(BuildContext context) {

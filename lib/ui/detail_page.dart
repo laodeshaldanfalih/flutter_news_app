@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/article.dart';
+import 'package:news_app/data/model/article.dart';
 import 'package:news_app/widgets/widgets.dart';
 
 class ArtcileDetailpage extends StatelessWidget {
   static const routName = '/article_detail';
   final Article article;
 
-  ArtcileDetailpage({required this.article});
+  const ArtcileDetailpage({Key? key, required this.article}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
